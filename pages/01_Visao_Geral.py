@@ -20,7 +20,7 @@ st.divider()
 col_graf1, col_graf2 = st.columns(2)
 
 with col_graf1:
-    st.plotly_chart(grafico_cursos(df), width='stretch')
+    st.plotly_chart(grafico_cursos(df), use_container_width='stretch')
 
 with col_graf2:
-    st.plotly_chart(grafico_instrutores(df), width='stretch')
+    st.plotly_chart(grafico_instrutores(df), use_container_width='stretch')
